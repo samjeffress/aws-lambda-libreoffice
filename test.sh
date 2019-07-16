@@ -15,4 +15,4 @@ yarn build
 docker run --rm \
   -v "$PWD":/var/task \
   -v "$PWD"/../libreoffice-lambda-layer/layer:/opt \
-  lambci/lambda:nodejs8.10 test.handler
+  lambci/lambda:nodejs10.x test.handler

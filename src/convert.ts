@@ -1,4 +1,4 @@
-import {unpack} from '@shelf/aws-lambda-brotli-unpacker';
+import {unpack} from '@samjeffress/aws-lambda-brotli-unpacker';
 import {execSync} from 'child_process';
 import {cleanupTempFiles} from './cleanup';
 import {getConvertedFilePath} from './logs';
