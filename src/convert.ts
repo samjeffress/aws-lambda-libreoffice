@@ -14,7 +14,7 @@ export const defaultArgs = [
 ];
 
 const INPUT_PATH = '/opt/lo.tar.br';
-const OUTPUT_PATH = '/tmp/instdir/program/soffice';
+const OUTPUT_PATH = '/opt/instdir/program/soffice';
 
 // see https://github.com/alixaxel/chrome-aws-lambda
 export async function getExecutablePath(): Promise<string> {
